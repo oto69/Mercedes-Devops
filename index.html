@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mercedes-Benz Lineup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mercedes-Benz lineup</h1>
+    <p>A small guide to eight models, from compact hatchback to flagship coupe.</p>
+  </header>
+  <main>
+    <div class="controls">
+      <label>Body type <select id="type"></select></label>
+      <label><input type="checkbox" id="sort"> Most powerful first</label>
+    </div>
+    <ul id="cars"></ul>
+    <p class="note">Figures are approximate and for a class project only.</p>
+  </main>
+  <script src="src/cars.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
