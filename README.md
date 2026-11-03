@@ -46,15 +46,15 @@ flowchart LR
 
 ### Successful 3-stage pipeline
 ![Pipeline](docs/pipeline.png)
-<COMMENT: GitHub Actions run with Build, Test and Deploy all green.>
+GitHub Actions run with Build, Test and Deploy all green.
 
 ### Unit tests passing
 ![Tests](docs/tests.png)
-<COMMENT: output of `npm test` showing all tests passing.>
+utput of `npm test` showing all tests passing.
 
 ### Running application
 ![App](docs/app.png)
-<COMMENT: the deployed site on Vercel.>
+the deployed site on Vercel.
 
 ## Run locally
 ```bash
