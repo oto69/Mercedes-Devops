@@ -1,0 +1,11 @@
+{
+  "name": "mercedes-showcase",
+  "version": "1.0.0",
+  "description": "Minimal Mercedes-Benz lineup site used for a DevOps CI/CD pipeline project",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js",
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
